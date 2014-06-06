@@ -19,3 +19,6 @@
 (setq ido-enable-flex-matching t)
 (setq ido-everywhere t)
 (ido-mode 1) 
+
+;;; do not create temp files
+(setq make-backup-files nil)
