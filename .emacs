@@ -1,5 +1,6 @@
 ;;; load files
 (add-to-list 'load-path "~/.emacs.d")
+(add-to-list 'load-path "~/.emacs.d/ecb")
 (load-file "~/.emacs.d/color-theme-tomorrow.el")
 (load-file "~/.emacs.d/tomorrow-night-theme.el")
 
@@ -22,3 +23,6 @@
 
 ;;; do not create temp files
 (setq make-backup-files nil)
+
+;;; ecb
+(require 'ecb)
